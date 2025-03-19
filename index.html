@@ -160,33 +160,39 @@
     </section>
 
     <!-- How It Works Section -->
-    <section class="bg-blue-50 py-20">
+    <section class="bg-blue-50 py-12 md:py-20">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16" data-aos="fade-up">
+            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
                 <span class="inline-block bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-1 rounded-full mb-4">JORNADA DO CLIENTE</span>
-                <h2 class="text-3xl font-bold">Para seus clientes, é simples como 1+1</h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Descubra como seus clientes podem transformar dados complexos em insights valiosos em minutos, não em dias.</p>
+                <h2 class="text-2xl md:text-3xl font-bold">Para seus clientes, é simples como 1+1</h2>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-base">Descubra como seus clientes podem transformar dados complexos em insights valiosos em minutos, não em dias.</p>
             </div>
 
             <!-- Timeline -->
             <div class="relative max-w-4xl mx-auto">
-                <!-- Timeline Line -->
-                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-200"></div>
+                <!-- Timeline Line - Hidden on mobile -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-blue-200 hidden md:block"></div>
+
+                <!-- Mobile Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 top-0 h-full w-0.5 bg-blue-200 md:hidden"></div>
 
                 <!-- Step 1 -->
-                <div class="relative mb-16" data-aos="fade-right">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">1</div>
-                    <div class="ml-auto w-5/12 pl-8">
-                        <div class="bg-white p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                            <div class="text-blue-600 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
-                                </svg>
+                <div class="relative mb-12 md:mb-16" data-aos="fade-right">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">1</div>
+                    <div class="md:ml-auto md:w-5/12 md:pl-8">
+                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+                                    </svg>
+                                </div>
+                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">1</div>
                             </div>
-                            <h3 class="text-xl font-bold mb-4">Digite o Produto</h3>
-                            <p class="text-gray-600 mb-4">Apenas insira o código NCM / HS Code do produto que desejam analisar. Interface intuitiva e amigável.</p>
-                            <div class="bg-blue-50 p-4 rounded-lg">
+                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Digite o Produto</h3>
+                            <p class="text-gray-600 text-sm md:text-base mb-4">Apenas insira o código NCM / HS Code do produto que desejam analisar. Interface intuitiva e amigável.</p>
+                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
                                 <p class="text-sm text-blue-800 font-medium">💡 Dica: Não sabe o código? Use nossa busca inteligente por nome do produto!</p>
                             </div>
                         </div>
@@ -194,18 +200,21 @@
                 </div>
 
                 <!-- Step 2 -->
-                <div class="relative mb-16" data-aos="fade-left">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">2</div>
-                    <div class="w-5/12 pr-8">
-                        <div class="bg-white p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                            <div class="text-blue-600 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
-                                </svg>
+                <div class="relative mb-12 md:mb-16" data-aos="fade-left">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">2</div>
+                    <div class="md:w-5/12 md:pr-8">
+                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                    </svg>
+                                </div>
+                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">2</div>
                             </div>
-                            <h3 class="text-xl font-bold mb-4">Escolha os Países</h3>
-                            <p class="text-gray-600 mb-4">Seleção simples dos países de interesse. Até 5 países por análise, com dados atualizados.</p>
-                            <div class="bg-blue-50 p-4 rounded-lg">
+                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Escolha os Países</h3>
+                            <p class="text-gray-600 text-sm md:text-base mb-4">Seleção simples dos países de interesse. Até 5 países por análise, com dados atualizados.</p>
+                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
                                 <p class="text-sm text-blue-800 font-medium">🎯 Sugestão: Indicamos os principais países que comercializam seu produto para facilitar sua escolha!</p>
                             </div>
                         </div>
@@ -213,18 +222,21 @@
                 </div>
 
                 <!-- Step 3 -->
-                <div class="relative mb-16" data-aos="fade-right">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">3</div>
-                    <div class="ml-auto w-5/12 pl-8">
-                        <div class="bg-white p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                            <div class="text-blue-600 mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-                                </svg>
+                <div class="relative mb-12 md:mb-16" data-aos="fade-right">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">3</div>
+                    <div class="md:ml-auto md:w-5/12 md:pl-8">
+                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="text-blue-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                                    </svg>
+                                </div>
+                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">3</div>
                             </div>
-                            <h3 class="text-xl font-bold mb-4">Receba o Relatório</h3>
-                            <p class="text-gray-600 mb-4">Relatório completo acessível online 24h, com análises, previsões e leads qualificados. Disponível em formato para fácil impressão e compartilhamento.</p>
-                            <div class="bg-blue-50 p-4 rounded-lg">
+                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Receba o Relatório</h3>
+                            <p class="text-gray-600 text-sm md:text-base mb-4">Relatório completo acessível online 24h, com análises, previsões e leads qualificados. Disponível em formato para fácil impressão e compartilhamento.</p>
+                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
                                 <p class="text-sm text-blue-800 font-medium">📄 Dica: Fácil de imprimir e compartilhar em PDF!</p>
                             </div>
                         </div>
@@ -233,46 +245,46 @@
             </div>
 
             <!-- Leads Feature -->
-            <div class="max-w-3xl mx-auto mt-20" data-aos="fade-up">
-                <div class="bg-white p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                    <div class="flex items-center mb-6">
-                        <div class="text-blue-600 mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+            <div class="max-w-3xl mx-auto mt-12 md:mt-20" data-aos="fade-up">
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                    <div class="flex flex-col md:flex-row md:items-center gap-4 md:gap-6 mb-6">
+                        <div class="text-blue-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold text-blue-900">Leads Qualificados em Cada Relatório</h3>
-                            <p class="text-blue-800">Cada relatório inclui automaticamente:</p>
+                            <h3 class="text-xl md:text-2xl font-bold text-blue-900">Leads Qualificados em Cada Relatório</h3>
+                            <p class="text-blue-800 text-sm md:text-base">Cada relatório inclui automaticamente:</p>
                         </div>
                     </div>
-                    <ul class="space-y-4 text-gray-700">
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <ul class="space-y-3 md:space-y-4 text-gray-700 text-sm md:text-base">
+                        <li class="flex items-start md:items-center gap-3">
+                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Lista completa de empresas parceiras potenciais para cada país analisado</span>
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start md:items-center gap-3">
+                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Análise detalhada dos principais concorrentes em cada mercado</span>
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start md:items-center gap-3">
+                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Contatos diretos e verificados dos principais tomadores de decisão</span>
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start md:items-center gap-3">
+                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Perfil detalhado de cada empresa, incluindo faturamento e área de atuação</span>
                         </li>
-                        <li class="flex items-center">
-                            <svg class="w-6 h-6 text-blue-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start md:items-center gap-3">
+                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Exportação dos leads em planilha Excel para fácil gestão</span>
@@ -282,11 +294,11 @@
             </div>
 
             <!-- Call to Action -->
-            <div class="text-center mt-16" data-aos="fade-up">
-                <p class="text-gray-600 mb-6">Pronto para transformar dados em decisões?</p>
-                <a href="#form" class="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition duration-300 hover-lift">
+            <div class="text-center mt-12 md:mt-16" data-aos="fade-up">
+                <p class="text-gray-600 mb-6 text-sm md:text-base">Pronto para transformar dados em decisões?</p>
+                <a href="#form" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold hover:bg-blue-700 transition duration-300 hover-lift text-sm md:text-base">
                     <span>Comece Agora</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-5 md:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                     </svg>
                 </a>
@@ -504,7 +516,7 @@
                     </a>
                     <button class="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition duration-300 hover-lift flex items-center gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                         </svg>
                         Agendar Reunião
                     </button>
