@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TradeSee - Relatórios de Comércio Inteligente</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@heroicons/react@2.1.1/24/outline"></script>
+    <script src="https://unpkg.com/@heroicons/vue@2.1.1/24/outline"></script>
+    <script src="https://unpkg.com/@heroicons/svelte@2.1.1/24/outline"></script>
+    <script src="https://unpkg.com/@heroicons/angular@2.1.1/24/outline"></script>
+    <script src="https://unpkg.com/@heroicons/web@2.1.1/24/outline"></script>
+    <link href="https://unpkg.com/@heroicons/web@2.1.1/24/outline/style.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-900">
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-center py-24">
         <div class="container mx-auto px-4">
-            <h1 class="text-5xl font-bold mb-6">Transforme Dados em Decisões Estratégicas</h1>
-            <p class="text-xl mb-8 max-w-3xl mx-auto">Relatórios sofisticados de comércio internacional com análises detalhadas, previsões de mercado e leads qualificados para expandir seus negócios globalmente.</p>
+            <h1 class="text-5xl font-bold mb-6">Inteligência de Comércio Internacional</h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Relatórios sofisticados gerados por IA com análises detalhadas de mercado, previsões e leads qualificados para expandir seus negócios globalmente.</p>
             <div class="flex justify-center gap-4">
-                <a href="#form" class="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-blue-50 transition duration-300">Gerar Relatório Agora</a>
-                <a href="#features" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">Saiba Mais</a>
+                <a href="#form" class="bg-white text-blue-600 font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-blue-50 transition duration-300">Começar Agora</a>
+                <a href="#features" class="bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">Ver Demonstração</a>
             </div>
         </div>
     </section>
@@ -22,36 +28,48 @@
     <!-- Features Section -->
     <section id="features" class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16">Relatórios Completos e Inteligentes</h2>
+            <h2 class="text-3xl font-bold text-center mb-16">Relatórios Inteligentes e Completos</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <div class="text-4xl mb-4">🌍</div>
-                    <h3 class="text-xl font-bold mb-4">Visão Global Estratégica</h3>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Análise Global Inteligente</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li>• Top 10 países globais</li>
+                        <li>• Top 10 países globais por produto</li>
                         <li>• Top 10 países com Brasil</li>
-                        <li>• Análise de tendências</li>
-                        <li>• Dados confiáveis e atualizados</li>
+                        <li>• Análise de tendências por IA</li>
+                        <li>• Dados atualizados em tempo real</li>
                     </ul>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <div class="text-4xl mb-4">📊</div>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold mb-4">Análise por País</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li>• Panorama comercial</li>
-                        <li>• Tarifas e barreiras</li>
-                        <li>• Cultura econômica</li>
-                        <li>• Previsões de mercado</li>
+                        <li>• Panorama comercial detalhado</li>
+                        <li>• Tarifas e barreiras comerciais</li>
+                        <li>• Cultura e ambiente econômico</li>
+                        <li>• Previsões de mercado por IA</li>
                     </ul>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
-                    <div class="text-4xl mb-4">🤝</div>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold mb-4">Leads Qualificados</h3>
                     <ul class="space-y-2 text-gray-600">
-                        <li>• Top 10 empresas parceiras</li>
-                        <li>• Empresas concorrentes</li>
-                        <li>• Contatos completos</li>
-                        <li>• Perfil de negócio</li>
+                        <li>• Top 10 empresas parceiras potenciais</li>
+                        <li>• Análise de concorrentes no Brasil</li>
+                        <li>• Contatos completos e verificados</li>
+                        <li>• Perfil de negócio detalhado</li>
                     </ul>
                 </div>
             </div>
@@ -64,19 +82,32 @@
             <h2 class="text-3xl font-bold text-center mb-16">Como Funciona?</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="p-8 bg-white rounded-xl shadow-lg">
-                    <div class="text-4xl mb-4">1️⃣</div>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold mb-4">Selecione os Produtos</h3>
-                    <p class="text-gray-600">Escolha os produtos pelo código NCM ou HS Code para análise detalhada.</p>
+                    <p class="text-gray-600">Digite o código NCM ou HS Code dos produtos que deseja analisar. Nossa IA irá gerar um relatório completo.</p>
                 </div>
                 <div class="p-8 bg-white rounded-xl shadow-lg">
-                    <div class="text-4xl mb-4">2️⃣</div>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold mb-4">Escolha os Países</h3>
-                    <p class="text-gray-600">Selecione até 5 países para análise detalhada e personalizada.</p>
+                    <p class="text-gray-600">Selecione até 5 países para análise detalhada. Nossa IA irá gerar insights específicos para cada mercado.</p>
                 </div>
                 <div class="p-8 bg-white rounded-xl shadow-lg">
-                    <div class="text-4xl mb-4">3️⃣</div>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                    </div>
                     <h3 class="text-xl font-bold mb-4">Receba seu Relatório</h3>
-                    <p class="text-gray-600">Relatório completo com insights, análises e leads qualificados.</p>
+                    <p class="text-gray-600">Relatório completo com análises, previsões e leads qualificados. Exporte em PDF e compartilhe facilmente.</p>
                 </div>
             </div>
         </div>
@@ -88,23 +119,33 @@
             <h2 class="text-3xl font-bold text-center mb-16">O que você recebe?</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="p-8 bg-gray-50 rounded-xl">
-                    <h3 class="text-xl font-bold mb-4">📑 Relatório Detalhado</h3>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Relatório Detalhado</h3>
                     <ul class="space-y-3 text-gray-600">
-                        <li>• Resumo executivo</li>
-                        <li>• Análise por país selecionado</li>
+                        <li>• Resumo executivo gerado por IA</li>
+                        <li>• Análise detalhada por país</li>
                         <li>• Análise de tarifas e barreiras</li>
-                        <li>• Previsões de mercado</li>
+                        <li>• Previsões de mercado por IA</li>
                         <li>• Análise de concorrentes</li>
                         <li>• Conclusão e recomendações</li>
                     </ul>
                 </div>
                 <div class="p-8 bg-gray-50 rounded-xl">
-                    <h3 class="text-xl font-bold mb-4">💼 Leads e Contatos</h3>
+                    <div class="text-blue-600 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Leads e Contatos</h3>
                     <ul class="space-y-3 text-gray-600">
                         <li>• Lista completa de empresas parceiras</li>
-                        <li>• Informações de contato detalhadas</li>
-                        <li>• Perfil de negócio das empresas</li>
-                        <li>• Empresas concorrentes no Brasil</li>
+                        <li>• Informações de contato verificadas</li>
+                        <li>• Perfil de negócio detalhado</li>
+                        <li>• Análise de concorrentes no Brasil</li>
                         <li>• Exportação em PDF</li>
                         <li>• Compartilhamento via WhatsApp</li>
                     </ul>
@@ -116,7 +157,7 @@
     <!-- Form Section -->
     <section id="form" class="bg-gray-100 py-20">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Solicite seu Relatório</h2>
+            <h2 class="text-3xl font-bold text-center mb-12">Comece Agora</h2>
             <form class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
