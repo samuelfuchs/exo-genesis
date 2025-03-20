@@ -63,42 +63,43 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="text-gray-900 bg-gray-50">
     <!-- Hero Section -->
-    <section class="bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white text-center py-32 relative overflow-hidden">
+    <section class="relative py-32 overflow-hidden text-center text-white bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900">
         <!-- Background Elements -->
         <div class="absolute inset-0">
             <div class="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]"></div>
             <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900/20"></div>
             <div class="absolute top-0 left-0 w-full h-full">
-                <div class="absolute top-0 left-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
-                <div class="absolute top-0 right-1/4 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
-                <div class="absolute bottom-0 left-1/3 w-96 h-96 bg-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
+                <div class="absolute top-0 bg-blue-400 rounded-full left-1/4 w-96 h-96 mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
+                <div class="absolute top-0 bg-purple-400 rounded-full right-1/4 w-96 h-96 mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
+                <div class="absolute bottom-0 bg-pink-400 rounded-full left-1/3 w-96 h-96 mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
             </div>
         </div>
 
         <!-- Content -->
-        <div class="container mx-auto px-4 relative">
+        <div class="container relative px-4 mx-auto">
             <div class="max-w-4xl mx-auto">
-                <div class="inline-block bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8" data-aos="fade-down">
+                <img src="./public/images/Logo-Stratex-Original.png" alt="Logo Stratex" class="h-12 mx-auto mb-8" data-aos="fade-down">
+                <div class="inline-block px-6 py-2 mb-8 rounded-full bg-white/10 backdrop-blur-sm" data-aos="fade-down">
                     <span class="text-sm font-semibold tracking-wider uppercase">Relatórios de Comércio Inteligente</span>
                 </div>
-                <h1 class="text-6xl font-bold mb-8 leading-tight" data-aos="fade-up" data-aos-delay="200">
+                <h1 class="mb-8 text-6xl font-bold leading-tight" data-aos="fade-up" data-aos-delay="200">
                     Transforme Dados em Oportunidades de Negócio
                 </h1>
-                <p class="text-xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-100" data-aos="fade-up" data-aos-delay="400">
+                <p class="max-w-3xl mx-auto mb-12 text-xl leading-relaxed text-blue-100" data-aos="fade-up" data-aos-delay="400">
                     Vá além dos números. Apresente insights que antecipam tendências, identificam oportunidades e revelam novos mercados. Relatórios claros e completos para decisões assertivas e estratégicas.
                 </p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4" data-aos="fade-up" data-aos-delay="600">
-                    <a href="#form" class="group bg-white text-blue-600 font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-blue-50 transition duration-300 hover-lift flex items-center justify-center gap-2">
+                <div class="flex flex-col justify-center gap-4 sm:flex-row" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#form" class="flex items-center justify-center gap-2 px-8 py-4 font-bold text-blue-600 transition duration-300 bg-white rounded-lg shadow-lg group hover:bg-blue-50 hover-lift">
                         <span>Agendar Demonstração</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-transform group-hover:translate-x-1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                         </svg>
                     </a>
-                    <a href="#features" class="group bg-transparent border-2 border-white text-white font-bold py-4 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300 hover-lift flex items-center justify-center gap-2">
+                    <a href="#features" class="flex items-center justify-center gap-2 px-8 py-4 font-bold text-white transition duration-300 bg-transparent border-2 border-white rounded-lg group hover:bg-white hover:text-blue-600 hover-lift">
                         <span>Ver Mais Detalhes</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 transition-transform group-hover:translate-x-1">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
                         </svg>
                     </a>
@@ -106,17 +107,17 @@
             </div>
 
             <!-- Stats or Features -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6" data-aos="fade-up" data-aos-delay="800">
-                    <div class="text-3xl font-bold mb-2">+200</div>
+            <div class="grid grid-cols-1 gap-8 mt-20 md:grid-cols-3">
+                <div class="p-6 bg-white/10 backdrop-blur-sm rounded-xl" data-aos="fade-up" data-aos-delay="800">
+                    <div class="mb-2 text-3xl font-bold">+200</div>
                     <div class="text-blue-100">Países analisados no relatório.</div>
                 </div>
-                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6" data-aos="fade-up" data-aos-delay="1000">
-                    <div class="text-3xl font-bold mb-2">24/7</div>
+                <div class="p-6 bg-white/10 backdrop-blur-sm rounded-xl" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="mb-2 text-3xl font-bold">24/7</div>
                     <div class="text-blue-100">Acesso contínuo a dados atualizados.</div>
                 </div>
-                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6" data-aos="fade-up" data-aos-delay="1200">
-                    <div class="text-3xl font-bold mb-2">3 Passos</div>
+                <div class="p-6 bg-white/10 backdrop-blur-sm rounded-xl" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="mb-2 text-3xl font-bold">3 Passos</div>
                     <div class="text-blue-100">De dados a decisões em minutos.</div>
                 </div>
             </div>
@@ -125,34 +126,34 @@
 
     <!-- Features Section -->
     <section id="features" class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">Por que escolher a Stratex?</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-blue-600 mb-4">
+        <div class="container px-4 mx-auto">
+            <h2 class="mb-16 text-3xl font-bold text-center" data-aos="fade-up">Por que escolher a Stratex?</h2>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="p-8 transition duration-300 shadow-lg bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Sem Investimento Inicial</h3>
+                    <h3 class="mb-4 text-xl font-bold">Sem Investimento Inicial</h3>
                     <p class="text-gray-600">Comece a oferecer relatórios premium sem custos fixos. Você paga apenas quando seus clientes geram relatórios.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="400">
-                    <div class="text-blue-600 mb-4">
+                <div class="p-8 transition duration-300 shadow-lg bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="400">
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Implementação Rápida</h3>
+                    <h3 class="mb-4 text-xl font-bold">Implementação Rápida</h3>
                     <p class="text-gray-600">Comece a oferecer relatórios premium aos seus clientes em poucos dias. Nossa equipe cuida de toda a implementação.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl shadow-lg hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="600">
-                    <div class="text-blue-600 mb-4">
+                <div class="p-8 transition duration-300 shadow-lg bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="600">
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Suporte Dedicado</h3>
+                    <h3 class="mb-4 text-xl font-bold">Suporte Dedicado</h3>
                     <p class="text-gray-600">Equipe técnica especializada para auxiliar na implementação e suporte contínuo. Treinamento completo para sua equipe.</p>
                 </div>
             </div>
@@ -160,12 +161,12 @@
     </section>
 
     <!-- How It Works Section -->
-    <section class="bg-blue-50 py-12 md:py-20">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12 md:mb-16" data-aos="fade-up">
-                <span class="inline-block bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-1 rounded-full mb-4">JORNADA DO CLIENTE</span>
-                <h2 class="text-2xl md:text-3xl font-bold">Para seus clientes, é simples como 1+1</h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto text-sm md:text-base">Descubra como seus clientes podem transformar dados complexos em insights valiosos em minutos, não em dias.</p>
+    <section class="py-12 bg-blue-50 md:py-20">
+        <div class="container px-4 mx-auto">
+            <div class="mb-12 text-center md:mb-16" data-aos="fade-up">
+                <span class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-blue-800 bg-blue-100 rounded-full">JORNADA DO CLIENTE</span>
+                <h2 class="text-2xl font-bold md:text-3xl">Para seus clientes, é simples como 1+1</h2>
+                <p class="max-w-2xl mx-auto mt-4 text-sm text-gray-600 md:text-base">Descubra como seus clientes podem transformar dados complexos em insights valiosos em minutos, não em dias.</p>
             </div>
 
             <!-- Timeline -->
@@ -178,9 +179,9 @@
 
                 <!-- Step 1 -->
                 <div class="relative mb-12 md:mb-16" data-aos="fade-right">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">1</div>
+                    <div class="absolute flex items-center justify-center hidden w-8 h-8 font-bold text-white transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 rounded-full left-1/2 md:flex">1</div>
                     <div class="md:ml-auto md:w-5/12 md:pl-8">
-                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                        <div class="p-6 transition duration-300 bg-white shadow-lg md:p-8 rounded-xl hover-lift">
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="text-blue-600">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
@@ -188,12 +189,12 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
                                     </svg>
                                 </div>
-                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">1</div>
+                                <div class="relative z-10 flex items-center justify-center w-8 h-8 font-bold text-white bg-blue-600 rounded-full md:hidden">1</div>
                             </div>
-                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Digite o Produto</h3>
-                            <p class="text-gray-600 text-sm md:text-base mb-4">Apenas insira o código NCM / HS Code do produto que desejam analisar. Interface intuitiva e amigável.</p>
-                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
-                                <p class="text-sm text-blue-800 font-medium">💡 Dica: Não sabe o código? Use nossa busca inteligente por nome do produto!</p>
+                            <h3 class="mb-3 text-lg font-bold md:text-xl md:mb-4">Digite o Produto</h3>
+                            <p class="mb-4 text-sm text-gray-600 md:text-base">Apenas insira o código NCM / HS Code do produto que desejam analisar. Interface intuitiva e amigável.</p>
+                            <div class="p-3 rounded-lg bg-blue-50 md:p-4">
+                                <p class="text-sm font-medium text-blue-800">💡 Dica: Não sabe o código? Use nossa busca inteligente por nome do produto!</p>
                             </div>
                         </div>
                     </div>
@@ -201,21 +202,21 @@
 
                 <!-- Step 2 -->
                 <div class="relative mb-12 md:mb-16" data-aos="fade-left">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">2</div>
+                    <div class="absolute flex items-center justify-center hidden w-8 h-8 font-bold text-white transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 rounded-full left-1/2 md:flex">2</div>
                     <div class="md:w-5/12 md:pr-8">
-                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                        <div class="p-6 transition duration-300 bg-white shadow-lg md:p-8 rounded-xl hover-lift">
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="text-blue-600">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
                                     </svg>
                                 </div>
-                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">2</div>
+                                <div class="relative z-10 flex items-center justify-center w-8 h-8 font-bold text-white bg-blue-600 rounded-full md:hidden">2</div>
                             </div>
-                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Escolha os Países</h3>
-                            <p class="text-gray-600 text-sm md:text-base mb-4">Seleção simples dos países de interesse. Até 5 países por análise, com dados atualizados.</p>
-                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
-                                <p class="text-sm text-blue-800 font-medium">🎯 Sugestão: Indicamos os principais países que comercializam seu produto para facilitar sua escolha!</p>
+                            <h3 class="mb-3 text-lg font-bold md:text-xl md:mb-4">Escolha os Países</h3>
+                            <p class="mb-4 text-sm text-gray-600 md:text-base">Seleção simples dos países de interesse. Até 5 países por análise, com dados atualizados.</p>
+                            <div class="p-3 rounded-lg bg-blue-50 md:p-4">
+                                <p class="text-sm font-medium text-blue-800">🎯 Sugestão: Indicamos os principais países que comercializam seu produto para facilitar sua escolha!</p>
                             </div>
                         </div>
                     </div>
@@ -223,21 +224,21 @@
 
                 <!-- Step 3 -->
                 <div class="relative mb-12 md:mb-16" data-aos="fade-right">
-                    <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold hidden md:flex">3</div>
+                    <div class="absolute flex items-center justify-center hidden w-8 h-8 font-bold text-white transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 rounded-full left-1/2 md:flex">3</div>
                     <div class="md:ml-auto md:w-5/12 md:pl-8">
-                        <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
+                        <div class="p-6 transition duration-300 bg-white shadow-lg md:p-8 rounded-xl hover-lift">
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="text-blue-600">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                                     </svg>
                                 </div>
-                                <div class="md:hidden bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold relative z-10">3</div>
+                                <div class="relative z-10 flex items-center justify-center w-8 h-8 font-bold text-white bg-blue-600 rounded-full md:hidden">3</div>
                             </div>
-                            <h3 class="text-lg md:text-xl font-bold mb-3 md:mb-4">Receba o Relatório</h3>
-                            <p class="text-gray-600 text-sm md:text-base mb-4">Relatório completo acessível online 24h, com análises, previsões e leads qualificados. Disponível em formato para fácil impressão e compartilhamento.</p>
-                            <div class="bg-blue-50 p-3 md:p-4 rounded-lg">
-                                <p class="text-sm text-blue-800 font-medium">📄 Dica: Fácil de imprimir e compartilhar em PDF!</p>
+                            <h3 class="mb-3 text-lg font-bold md:text-xl md:mb-4">Receba o Relatório</h3>
+                            <p class="mb-4 text-sm text-gray-600 md:text-base">Relatório completo acessível online 24h, com análises, previsões e leads qualificados. Disponível em formato para fácil impressão e compartilhamento.</p>
+                            <div class="p-3 rounded-lg bg-blue-50 md:p-4">
+                                <p class="text-sm font-medium text-blue-800">📄 Dica: Fácil de imprimir e compartilhar em PDF!</p>
                             </div>
                         </div>
                     </div>
@@ -246,45 +247,45 @@
 
             <!-- Leads Feature -->
             <div class="max-w-3xl mx-auto mt-12 md:mt-20" data-aos="fade-up">
-                <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                    <div class="flex flex-col md:flex-row md:items-center gap-4 md:gap-6 mb-6">
+                <div class="p-6 transition duration-300 bg-white shadow-lg md:p-8 rounded-xl hover-lift">
+                    <div class="flex flex-col gap-4 mb-6 md:flex-row md:items-center md:gap-6">
                         <div class="text-blue-600">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 md:w-12 md:h-12">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                             </svg>
                         </div>
                         <div>
-                            <h3 class="text-xl md:text-2xl font-bold text-blue-900">Leads Qualificados em Cada Relatório</h3>
-                            <p class="text-blue-800 text-sm md:text-base">Cada relatório inclui automaticamente:</p>
+                            <h3 class="text-xl font-bold text-blue-900 md:text-2xl">Leads Qualificados em Cada Relatório</h3>
+                            <p class="text-sm text-blue-800 md:text-base">Cada relatório inclui automaticamente:</p>
                         </div>
                     </div>
-                    <ul class="space-y-3 md:space-y-4 text-gray-700 text-sm md:text-base">
-                        <li class="flex items-start md:items-center gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <ul class="space-y-3 text-sm text-gray-700 md:space-y-4 md:text-base">
+                        <li class="flex items-start gap-3 md:items-center">
+                            <svg class="w-5 h-5 mt-1 text-blue-500 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Lista completa de empresas parceiras potenciais para cada país analisado</span>
                         </li>
-                        <li class="flex items-start md:items-center gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start gap-3 md:items-center">
+                            <svg class="w-5 h-5 mt-1 text-blue-500 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Análise detalhada dos principais concorrentes em cada mercado</span>
                         </li>
-                        <li class="flex items-start md:items-center gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start gap-3 md:items-center">
+                            <svg class="w-5 h-5 mt-1 text-blue-500 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Contatos diretos e verificados dos principais tomadores de decisão</span>
                         </li>
-                        <li class="flex items-start md:items-center gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start gap-3 md:items-center">
+                            <svg class="w-5 h-5 mt-1 text-blue-500 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Perfil detalhado de cada empresa, incluindo faturamento e área de atuação</span>
                         </li>
-                        <li class="flex items-start md:items-center gap-3">
-                            <svg class="w-5 h-5 text-blue-500 mt-1 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <li class="flex items-start gap-3 md:items-center">
+                            <svg class="w-5 h-5 mt-1 text-blue-500 md:mt-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             <span>Exportação dos leads em planilha Excel para fácil gestão</span>
@@ -294,9 +295,9 @@
             </div>
 
             <!-- Call to Action -->
-            <div class="text-center mt-12 md:mt-16" data-aos="fade-up">
-                <p class="text-gray-600 mb-6 text-sm md:text-base">Pronto para transformar dados em decisões?</p>
-                <a href="#form" class="inline-flex items-center gap-2 bg-blue-600 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-bold hover:bg-blue-700 transition duration-300 hover-lift text-sm md:text-base">
+            <div class="mt-12 text-center md:mt-16" data-aos="fade-up">
+                <p class="mb-6 text-sm text-gray-600 md:text-base">Pronto para transformar dados em decisões?</p>
+                <a href="#form" class="inline-flex items-center gap-2 px-6 py-3 text-sm font-bold text-white transition duration-300 bg-blue-600 rounded-lg md:px-8 md:py-4 hover:bg-blue-700 hover-lift md:text-base">
                     <span>Comece Agora</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 md:w-5 md:h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -308,64 +309,64 @@
 
     <!-- Company Benefits Section -->
     <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <span class="inline-block bg-green-100 text-green-800 text-sm font-semibold px-4 py-1 rounded-full mb-4">BENEFÍCIOS PARA SUA EMPRESA</span>
+        <div class="container px-4 mx-auto">
+            <div class="mb-16 text-center" data-aos="fade-up">
+                <span class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-green-800 bg-green-100 rounded-full">BENEFÍCIOS PARA SUA EMPRESA</span>
                 <h2 class="text-3xl font-bold">Uma Solução Completa e Pronta para Uso</h2>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="200">
-                    <div class="text-green-600 mb-4">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Sem Investimento Inicial</h3>
+                    <h3 class="mb-4 text-xl font-bold">Sem Investimento Inicial</h3>
                     <p class="text-gray-600">Implementação gratuita e sem custos fixos. Você paga apenas quando seus clientes geram relatórios, garantindo um modelo de negócio sem riscos.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="400">
-                    <div class="text-green-600 mb-4">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="400">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Nova Fonte de Receita</h3>
+                    <h3 class="mb-4 text-xl font-bold">Nova Fonte de Receita</h3>
                     <p class="text-gray-600">Ofereça relatórios premium aos seus clientes e crie uma nova fonte de receita comprovada. Modelo de negócio testado e aprovado.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="600">
-                    <div class="text-green-600 mb-4">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="600">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Painel Administrativo Completo</h3>
+                    <h3 class="mb-4 text-xl font-bold">Painel Administrativo Completo</h3>
                     <p class="text-gray-600">Acompanhe métricas de faturamento, uso e demografia dos clientes. Todos os dados exportáveis para planilhas.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="800">
-                    <div class="text-green-600 mb-4">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="800">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Gateway de Pagamento Integrado</h3>
+                    <h3 class="mb-4 text-xl font-bold">Gateway de Pagamento Integrado</h3>
                     <p class="text-gray-600">Módulo opcional com Stripe já configurado. Basta registrar sua conta e nós cuidamos de toda a integração.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="1000">
-                    <div class="text-green-600 mb-4">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Solução Pronta para Uso</h3>
+                    <h3 class="mb-4 text-xl font-bold">Solução Pronta para Uso</h3>
                     <p class="text-gray-600">Implementação rápida e sem complicações. Comece a oferecer relatórios premium aos seus clientes em poucos dias.</p>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300" data-aos="fade-up" data-aos-delay="1200">
-                    <div class="text-green-600 mb-4">
+                <div class="p-8 transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="mb-4 text-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Suporte Técnico Dedicado</h3>
+                    <h3 class="mb-4 text-xl font-bold">Suporte Técnico Dedicado</h3>
                     <p class="text-gray-600">Equipe técnica especializada para auxiliar na implementação e suporte contínuo. Treinamento completo para sua equipe.</p>
                 </div>
             </div>
@@ -374,123 +375,123 @@
 
     <!-- Report Features Section -->
     <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16" data-aos="fade-up">
-                <span class="inline-block bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-1 rounded-full mb-4">TUDO INCLUSO</span>
+        <div class="container px-4 mx-auto">
+            <div class="mb-16 text-center" data-aos="fade-up">
+                <span class="inline-block px-4 py-1 mb-4 text-sm font-semibold text-blue-800 bg-blue-100 rounded-full">TUDO INCLUSO</span>
                 <h2 class="text-3xl font-bold">O que você recebe?</h2>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
-                    <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-1 rounded-bl-lg text-sm font-semibold">Experiência do Usuário</div>
-                    <div class="text-blue-600 mb-4">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+                <div class="relative p-8 overflow-hidden transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute top-0 right-0 px-4 py-1 text-sm font-semibold text-white bg-blue-600 rounded-bl-lg">Experiência do Usuário</div>
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Experiência Premium</h3>
+                    <h3 class="mb-4 text-xl font-bold">Experiência Premium</h3>
                     <ul class="space-y-3 text-gray-600">
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Dashboard intuitivo e responsivo
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Relatórios completos com análises detalhadas
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Leads qualificados em cada relatório
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Exportação em PDF e Excel
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Interface moderna e fácil de usar
                         </li>
                     </ul>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="400">
-                    <div class="absolute top-0 right-0 bg-green-600 text-white px-4 py-1 rounded-bl-lg text-sm font-semibold">Painel Admin</div>
-                    <div class="text-blue-600 mb-4">
+                <div class="relative p-8 overflow-hidden transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="400">
+                    <div class="absolute top-0 right-0 px-4 py-1 text-sm font-semibold text-white bg-green-600 rounded-bl-lg">Painel Admin</div>
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Painel Administrativo</h3>
+                    <h3 class="mb-4 text-xl font-bold">Painel Administrativo</h3>
                     <ul class="space-y-3 text-gray-600">
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Gestão completa de usuários e relatórios
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Métricas de uso e faturamento
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Suporte técnico dedicado
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Relatórios financeiros exportáveis
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Gestão de assinaturas e pagamentos
                         </li>
                     </ul>
                 </div>
-                <div class="p-8 bg-gray-50 rounded-xl hover-lift transition duration-300 relative overflow-hidden" data-aos="fade-up" data-aos-delay="600">
-                    <div class="absolute top-0 right-0 bg-purple-600 text-white px-4 py-1 rounded-bl-lg text-sm font-semibold">Futuras Atualizações</div>
-                    <div class="text-blue-600 mb-4">
+                <div class="relative p-8 overflow-hidden transition duration-300 bg-gray-50 rounded-xl hover-lift" data-aos="fade-up" data-aos-delay="600">
+                    <div class="absolute top-0 right-0 px-4 py-1 text-sm font-semibold text-white bg-purple-600 rounded-bl-lg">Futuras Atualizações</div>
+                    <div class="mb-4 text-blue-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Próximas Atualizações</h3>
+                    <h3 class="mb-4 text-xl font-bold">Próximas Atualizações</h3>
                     <ul class="space-y-3 text-gray-600">
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Acesso prioritário a novos recursos
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Recursos exclusivos por setor
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Novas funcionalidades para seus clientes
                         </li>
                         <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Atualizações contínuas e suporte
@@ -502,19 +503,19 @@
     </section>
 
     <!-- Form Section -->
-    <section id="form" class="bg-gray-100 py-20">
-        <div class="container mx-auto px-4">
+    <section id="form" class="py-20 bg-gray-100">
+        <div class="container px-4 mx-auto">
             <!-- Quick Contact Buttons -->
-            <div class="text-center mb-16" data-aos="fade-up">
-                <h2 class="text-3xl font-bold mb-4">Contato Direto</h2>
+            <div class="mb-16 text-center" data-aos="fade-up">
+                <h2 class="mb-4 text-3xl font-bold">Contato Direto</h2>
                 <div class="flex justify-center gap-4">
-                    <a href="https://wa.me/5511999999999" target="_blank" class="bg-green-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-600 transition duration-300 hover-lift flex items-center gap-2">
+                    <a href="https://wa.me/5511999999999" target="_blank" class="flex items-center gap-2 px-6 py-3 font-bold text-white transition duration-300 bg-green-500 rounded-lg hover:bg-green-600 hover-lift">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
                         </svg>
                         WhatsApp
                     </a>
-                    <button class="bg-blue-500 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-600 transition duration-300 hover-lift flex items-center gap-2">
+                    <button class="flex items-center gap-2 px-6 py-3 font-bold text-white transition duration-300 bg-blue-500 rounded-lg hover:bg-blue-600 hover-lift">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                         </svg>
@@ -525,36 +526,36 @@
 
             <!-- Demo Request Form -->
             <div class="max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-                <div class="text-center mb-8">
-                    <h2 class="text-3xl font-bold mb-4">Solicite uma Demonstração</h2>
+                <div class="mb-8 text-center">
+                    <h2 class="mb-4 text-3xl font-bold">Solicite uma Demonstração</h2>
                     <p class="text-gray-600">Preencha o formulário abaixo para receber um relatório de exemplo e agendar uma demonstração em vídeo</p>
                 </div>
-                <form class="bg-white p-8 rounded-xl shadow-lg hover-lift transition duration-300">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <form class="p-8 transition duration-300 bg-white shadow-lg rounded-xl hover-lift">
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
                         <div>
-                            <label for="company-name" class="block text-gray-700 font-medium mb-2">Nome da Empresa</label>
-                            <input id="company-name" type="text" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" placeholder="Digite o nome da sua empresa" required>
+                            <label for="company-name" class="block mb-2 font-medium text-gray-700">Nome da Empresa</label>
+                            <input id="company-name" type="text" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Digite o nome da sua empresa" required>
                         </div>
                         <div>
-                            <label for="person-name" class="block text-gray-700 font-medium mb-2">Nome do Responsável</label>
-                            <input id="person-name" type="text" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" placeholder="Digite seu nome completo" required>
+                            <label for="person-name" class="block mb-2 font-medium text-gray-700">Nome do Responsável</label>
+                            <input id="person-name" type="text" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Digite seu nome completo" required>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                    <div class="grid grid-cols-1 gap-6 mt-6 md:grid-cols-2">
                         <div>
-                            <label for="company-email" class="block text-gray-700 font-medium mb-2">E-mail Corporativo</label>
-                            <input id="company-email" type="email" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" placeholder="Digite seu e-mail corporativo" required>
+                            <label for="company-email" class="block mb-2 font-medium text-gray-700">E-mail Corporativo</label>
+                            <input id="company-email" type="email" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Digite seu e-mail corporativo" required>
                         </div>
                         <div>
-                            <label for="phone-number" class="block text-gray-700 font-medium mb-2">Telefone</label>
-                            <input id="phone-number" type="tel" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" placeholder="(00) 00000-0000" required>
+                            <label for="phone-number" class="block mb-2 font-medium text-gray-700">Telefone</label>
+                            <input id="phone-number" type="tel" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="(00) 00000-0000" required>
                         </div>
                     </div>
 
                     <div class="mt-6">
-                        <label for="client-count" class="block text-gray-700 font-medium mb-2">Quantidade de Clientes</label>
-                        <select id="client-count" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" required>
+                        <label for="client-count" class="block mb-2 font-medium text-gray-700">Quantidade de Clientes</label>
+                        <select id="client-count" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
                             <option value="1-10">1-10 clientes</option>
                             <option value="11-50">11-50 clientes</option>
                             <option value="51-200">51-200 clientes</option>
@@ -567,67 +568,67 @@
                     </div>
 
                     <div class="mt-6">
-                        <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem (Escreva sua mensagem aqui)</label>
-                        <textarea id="message" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300" rows="4" placeholder="Escreva sua mensagem aqui">Olá, tenho interesse em conhecer mais sobre a solução.
+                        <label for="message" class="block mb-2 font-medium text-gray-700">Mensagem (Escreva sua mensagem aqui)</label>
+                        <textarea id="message" class="w-full p-3 transition duration-300 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" rows="4" placeholder="Escreva sua mensagem aqui">Olá, tenho interesse em conhecer mais sobre a solução.
 
 • Prefiro ser contatado no período: </textarea>
                     </div>
 
                     <div class="mt-6">
                         <label class="flex items-start space-x-3">
-                            <input type="checkbox" class="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" required>
-                            <span class="text-gray-700 text-sm">
+                            <input type="checkbox" class="w-4 h-4 mt-1 text-blue-600 border-gray-300 rounded focus:ring-blue-500" required>
+                            <span class="text-sm text-gray-700">
                                 Autorizo o contato para agendamento da demonstração e envio do relatório de exemplo. 
                                 <a href="#" class="text-blue-600 hover:text-blue-800">Política de Privacidade</a>
                             </span>
                         </label>
                     </div>
 
-                    <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-lg font-bold mt-8 hover:bg-blue-700 transition duration-300 hover-lift">Solicitar Demonstração</button>
+                    <button type="submit" class="w-full py-4 mt-8 font-bold text-white transition duration-300 bg-blue-600 rounded-lg hover:bg-blue-700 hover-lift">Solicitar Demonstração</button>
                 </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-blue-900 text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer class="py-12 text-white bg-blue-900">
+        <div class="container px-4 mx-auto">
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
                 <div data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-xl font-bold mb-4">Stratex</h3>
+                    <h3 class="mb-4 text-xl font-bold">Stratex</h3>
                     <p class="text-gray-300">Transformando dados em decisões estratégicas para o comércio internacional.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400">
-                    <h3 class="text-xl font-bold mb-4">Contato</h3>
+                    <h3 class="mb-4 text-xl font-bold">Contato</h3>
                     <p class="text-gray-300">Email: contato@stratex.com</p>
                     <p class="text-gray-300">Tel: +55 (11) 9999-9999</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600">
-                    <h3 class="text-xl font-bold mb-4">Redes Sociais</h3>
+                    <h3 class="mb-4 text-xl font-bold">Redes Sociais</h3>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">LinkedIn</a>
-                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">Instagram</a>
-                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">WhatsApp</a>
+                        <a href="#" class="text-gray-300 transition duration-300 hover:text-white">LinkedIn</a>
+                        <a href="#" class="text-gray-300 transition duration-300 hover:text-white">Instagram</a>
+                        <a href="#" class="text-gray-300 transition duration-300 hover:text-white">WhatsApp</a>
                     </div>
                 </div>
             </div>
-            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-gray-300" data-aos="fade-up" data-aos-delay="800">
+            <div class="pt-8 mt-8 text-center text-gray-300 border-t border-blue-800" data-aos="fade-up" data-aos-delay="800">
                 <p>&copy; 2025 Stratex. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/5511999999999" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition duration-300 hover-lift group z-50">
+    <a href="https://wa.me/5511999999999" target="_blank" class="fixed z-50 p-4 text-white transition duration-300 bg-green-500 rounded-full shadow-lg bottom-8 right-8 hover:bg-green-600 hover-lift group">
         <div class="relative">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
             </svg>
-            <div class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center animate-pulse">
+            <div class="absolute flex items-center justify-center w-5 h-5 text-xs text-white bg-red-500 rounded-full -top-2 -right-2 animate-pulse">
                 <span>1</span>
             </div>
         </div>
-        <div class="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-white text-gray-800 px-4 py-2 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        <div class="absolute px-4 py-2 mr-4 text-gray-800 transition-opacity duration-300 -translate-y-1/2 bg-white rounded-lg shadow-lg opacity-0 right-full top-1/2 group-hover:opacity-100 whitespace-nowrap">
             Fale conosco no WhatsApp
         </div>
     </a>
